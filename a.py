@@ -120,27 +120,6 @@ for i in range(6):
     else:
         current = scale_polygon(current, 0.7)  # smaller square
 
-
-# petal_colors = ["pink", "orange", "white", "purple"]
-# num_petals = 36  # increase petals for smoother flower
-# angle_step = 360 / num_petals
-# outer_radius = radius + 20
-
-
-# petal_radius = (2 * math.pi * outer_radius) / num_petals / 2
-
-# for i in range(num_petals):
-#     angle = i * angle_step
-#     t.penup()
-#     t.goto(0, 0)
-#     t.setheading(angle)
-#     t.forward(outer_radius)
-#     t.pendown()
-#     t.color(petal_colors[i % len(petal_colors)])
-#     t.begin_fill()
-#     t.circle(petal_radius)
-#     t.end_fill()
-
 num_petals = 36  # increase petals for smoother flower
 angle_step = 360 / num_petals
 outer_radius = radius + 20
@@ -153,7 +132,7 @@ for i in range(num_petals):
     t.setheading(angle)
     t.forward(outer_radius)
     t.pendown()
-    t.color("gold")   # 🔥 all petals same color
+    t.color("gold")   
     t.begin_fill()
     t.circle(petal_radius)
     t.end_fill()
