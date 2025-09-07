@@ -9,3 +9,6 @@ Created to celebrate Onam with code!
 
 ## 📷 Screenshot
 ![Pookkalam Screenshot](screenshot.png)
+
+## 🎥 [Watch the full simulation](https://youtu.be/45n5grtbppE)
+
